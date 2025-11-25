@@ -1,0 +1,200 @@
+I want you to build a complete modern cybersecurity portfolio website.
+Follow every instruction carefully and generate the full project (HTML, CSS, JS, API routes if needed), with clean file structure and modern code.
+This portfolio must be dynamic, interactive, animated, and visually stunning.
+Below are the specifications.
+DO NOT simplify. Build it like a premium site for a top cybersecurity engineer.
+⚡ 1. PROJECT TYPE
+
+A fully dynamic, interactive cybersecurity-themed portfolio, built with:
+
+Frontend: HTML + CSS + Modern JavaScript (ES6+)
+
+Optional but encouraged: React or Next.js if you judge it will produce a better result
+
+Canvas & WebGL animations for visual effects
+
+Responsive design (mobile, tablet, desktop)
+
+Light/dark mode theme
+
+Multi-language system (FR/EN)
+
+⚡ 2. THEME & STYLE
+
+The design must be:
+
+Futuristic, cyberpunk, neon, dark mode
+
+Inspired by: HackTheBox, TryHackMe, NASA, Cyberpunk 2077 UI, Space/Astro themes
+
+Animated background (nebula, particles, map, network graph, matrix rain, or nodes connected)
+
+Smooth transitions, parallax, hover interactions, scroll animations
+
+Use gradients, glowing borders, blurred glass (glassmorphism)
+
+⚡ 3. SECTIONS TO INCLUDE
+
+Build ALL these sections with polished UI:
+
+⭐ HERO SECTION
+
+My name: Ayman Mourtada
+
+Cybersecurity engineer
+
+Animated typing / glitch text
+
+Animated cyber map or interactive background
+
+Buttons: "Projects", "Contact"
+
+⭐ ABOUT
+
+Short bio
+Key facts (location, skills focus, availability)
+
+⭐ EXPERIENCE TIMELINE
+
+CTF achievements
+
+Internships
+
+Engineering studies
+
+Cybersecurity projects
+
+Use a dynamic vertical timeline with animations.
+
+⭐ PROJECTS GALLERY
+
+6+ cards with:
+
+Title
+
+Short description
+
+Tech stack
+
+Hover animations
+
+Modal window opening when clicked
+
+⭐ SKILLS MATRIX
+
+Offensive security
+
+Cryptography
+
+Python, JS, Bash
+
+Tools: Nmap, Burp, Wireshark, Metasploit
+
+AI tools (TensorFlow, OpenCV)
+
+Use icons and animations.
+
+⭐ EDUCATION
+
+Animated timeline (UIR, UEMF, SMIA)
+
+⭐ CONTACT
+
+Interactive form + links (GitHub, LinkedIn, Email, Phone)
+Form should NOT break even if backend is missing.
+
+⚡ 4. INTERACTIVITY REQUIREMENTS
+Background Animations (choose best performing)
+
+Cyber map with glowing nodes
+
+Particle network
+
+Matrix rain effect
+
+Nebula with parallax
+
+Cyber radar sweep
+
+Orbiting elements
+
+Scroll Animations
+
+Trigger section animations when entering viewport
+
+Use Intersection Observer
+
+Hover Effects
+
+Neon borders
+
+Card tilt on hover
+
+Glowing icons
+
+Language Switcher
+
+EN / FR toggle
+
+All labels inside a translation JSON
+
+⚡ 5. FILE STRUCTURE
+
+Generate a clean, multi-file project:
+
+/public
+   /assets (images, icons)
+src/
+   index.html
+   styles/
+      globals.css
+      components.css
+      animations.css
+   js/
+      main.js
+      background.js
+      translations.js
+      interactions.js
+README.md
+
+⚡ 6. PERFORMANCE REQUIREMENTS
+
+Optimize canvas
+
+Optimize animations
+
+Lazy-load large scripts
+
+Mobile-friendly
+
+Fast performance even on low-end devices
+
+⚡ 7. FINAL RESULT
+
+Deliver a complete, production-ready portfolio with:
+
+Beautiful UI
+
+Smooth animations
+
+Strong cyber theme
+
+Multi-language
+
+Modular code
+
+High performance
+
+Comments everywhere for readability
+
+⚡ 8. AFTER GENERATION
+
+After building the project:
+
+List ALL generated files
+
+Explain how to run the portfolio
+
+Suggest improvements
+
+BUILD THE BEST POSSIBLE PORTFOLIO
