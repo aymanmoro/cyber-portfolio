@@ -21,9 +21,9 @@ export const translations = {
       title: "About Me",
       bio: "Passionate cybersecurity engineer specializing in offensive security, penetration testing, and vulnerability research. With a strong foundation in ethical hacking and a proven track record in CTF competitions, I thrive on breaking systems to make them stronger.",
       location: "Location",
-      locationValue: "Morocco",
+      locationValue: "Morocco , RABAT",
       focus: "Focus",
-      focusValue: "Offensive Security & CTFs",
+      focusValue: "Offensive & Defensive Security & CTFs",
       availability: "Status",
       availabilityValue: "Open to Opportunities"
     },
@@ -109,19 +109,19 @@ export const translations = {
         {
           name: "UIR - Université Internationale de Rabat",
           degree: "Master's in Cybersecurity",
-          period: "2021 - 2023",
+          period: "2022 - 2025",
           description: "Advanced studies in network security, cryptography, and secure software development"
         },
         {
           name: "UEMF - Université Euro-Méditerranéenne de Fès",
-          degree: "Bachelor's in Computer Science",
-          period: "2018 - 2021",
+          degree: "Preparatory Studies",
+          period: "2020 - 2022",
           description: "Foundation in computer science, algorithms, and software engineering"
         },
         {
           name: "SMIA - Sciences Mathématiques et Informatique Appliquée",
-          degree: "Preparatory Studies",
-          period: "2016 - 2018",
+          degree: "first year in Computer Science",
+          period: "2019 - 2020",
           description: "Mathematical and computational foundations"
         }
       ]
@@ -153,7 +153,7 @@ export const translations = {
       }
     },
     footer: {
-      copyright: "© {year} Ayman Mourtada. Built with React & TypeScript."
+      copyright: "© {year} Ayman Mourtada. Built with passion for cybersecurity and technology ."
     }
   },
   fr: {
@@ -178,9 +178,9 @@ export const translations = {
       title: "À Propos de Moi",
       bio: "Ingénieur en cybersécurité passionné, spécialisé dans la sécurité offensive, les tests d'intrusion et la recherche de vulnérabilités. Avec une solide base en hacking éthique et un parcours éprouvé dans les compétitions CTF, je m'épanouis en cassant les systèmes pour les rendre plus forts.",
       location: "Localisation",
-      locationValue: "Maroc",
+      locationValue: "Maroc , RABAT",
       focus: "Spécialisation",
-      focusValue: "Sécurité Offensive & CTFs",
+      focusValue: "Sécurité Offensive & Défensive & CTFs",
       availability: "Statut",
       availabilityValue: "Ouvert aux Opportunités"
     },
@@ -266,19 +266,19 @@ export const translations = {
         {
           name: "UIR - Université Internationale de Rabat",
           degree: "Master en Cybersécurité",
-          period: "2021 - 2023",
+          period: "2022 - 2025",
           description: "Études avancées en sécurité réseau, cryptographie et développement logiciel sécurisé"
         },
         {
           name: "UEMF - Université Euro-Méditerranéenne de Fès",
-          degree: "Licence en Informatique",
-          period: "2018 - 2021",
+          degree: " Études Préparatoires",
+          period: "2020 - 2022",
           description: "Fondation en informatique, algorithmes et génie logiciel"
         },
         {
           name: "SMIA - Sciences Mathématiques et Informatique Appliquée",
-          degree: "Études Préparatoires",
-          period: "2016 - 2018",
+          degree: "1 ère année Science Informatique",
+          period: "2019 - 2020",
           description: "Fondations mathématiques et computationnelles"
         }
       ]

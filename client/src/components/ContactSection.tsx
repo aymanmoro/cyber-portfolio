@@ -45,28 +45,28 @@ export function ContactSection() {
     {
       icon: Mail,
       label: t.contact.info.email,
-      value: 'ayman.mourtada@example.com',
-      href: 'mailto:ayman.mourtada@example.com',
+      value: 'aymanmourtada11@gmail.com',
+      href: 'mailto:aymanmourtada11@gmail.com',
       testId: 'email'
     },
     {
       icon: Phone,
       label: t.contact.info.phone,
-      value: '+212 6XX XXX XXX',
-      href: 'tel:+212600000000',
+      value: '+212 680 891 425',
+      href: 'tel:+212680891425',
       testId: 'phone'
     },
     {
       icon: Github,
       label: t.contact.info.github,
-      value: 'github.com/aymanmourtada',
-      href: 'https://github.com',
+      value: 'https://github.com/amourtada',
+      href: 'https://github.com/amourtada',
       testId: 'github'
     },
     {
       icon: Linkedin,
       label: t.contact.info.linkedin,
-      value: 'linkedin.com/in/aymanmourtada',
+      value: 'https://www.linkedin.com/in/ayman-mourtada-784b69239/',
       href: 'https://linkedin.com',
       testId: 'linkedin'
     }

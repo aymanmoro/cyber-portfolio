@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useState, useEffect } from 'react';
+import CVButtonNav from './CVButtonNav';
 
 export function Navigation() {
   const { theme, toggleTheme } = useTheme();
@@ -52,11 +53,21 @@ export function Navigation() {
                   size="sm"
                   onClick={() => scrollToSection(section)}
                   data-testid={`button-nav-${section}`}
-                  className="hover-elevate"
+                  className="hover-elevate neon-glow animate-pulse-glow"
                 >
                   {t.nav[section as keyof typeof t.nav]}
                 </Button>
               ))}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => scrollToSection('achievements')}
+                data-testid="button-nav-achievements"
+                className="ml-2 font-semibold text-primary border-primary hover:bg-primary/10 hover:text-primary neon-glow animate-pulse-glow"
+              >
+                Achievements
+              </Button>
+              <CVButtonNav />
             </div>
 
             <div className="flex items-center gap-2">
@@ -118,12 +129,21 @@ export function Navigation() {
                 variant="ghost"
                 size="lg"
                 onClick={() => scrollToSection(section)}
-                className="w-full max-w-xs text-lg hover-elevate"
+                className="w-full max-w-xs text-lg hover-elevate neon-glow animate-pulse-glow"
                 data-testid={`button-mobile-nav-${section}`}
               >
                 {t.nav[section as keyof typeof t.nav]}
               </Button>
             ))}
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={() => scrollToSection('achievements')}
+              className="w-full max-w-xs text-lg font-semibold text-primary border-primary hover:bg-primary/10 hover:text-primary neon-glow animate-pulse-glow"
+              data-testid="button-mobile-nav-achievements"
+            >
+              Achievements
+            </Button>
           </div>
         </div>
       )}

@@ -8,6 +8,7 @@ import { SkillsSection } from '@/components/SkillsSection';
 import { EducationSection } from '@/components/EducationSection';
 import { ContactSection } from '@/components/ContactSection';
 import { useLanguage } from '@/contexts/LanguageContext';
+import AchievementsSection from '@/components/AchievementsSection';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -24,6 +25,7 @@ export default function Home() {
         <ProjectsSection />
         <SkillsSection />
         <EducationSection />
+        <AchievementsSection />
         <ContactSection />
       </main>
 

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ChevronDown } from 'lucide-react';
+import DecryptedText from './DecryptedText';
+import CVButton from './CVButton';
 
 export function HeroSection() {
   const { t } = useLanguage();
@@ -61,10 +63,19 @@ export function HeroSection() {
           </div>
 
           <h1
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold gradient-text mb-4"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold gradient-text mb-4 animate-shine"
             data-testid="text-name"
+            style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
           >
-            {t.hero.name}
+            <DecryptedText
+              text="AYMAN  MOURTADA"
+              speed={1} // fastest decryption for instant appearance
+              maxIterations={2}
+              animateOn="view"
+              revealDirection="start"
+              className="text-white"
+              encryptedClassName="text-white opacity-60"
+            />
           </h1>
 
           <div className="h-20 flex items-center justify-center">
@@ -72,8 +83,15 @@ export function HeroSection() {
               className="text-2xl sm:text-3xl md:text-4xl font-mono text-foreground"
               data-testid="text-title"
             >
-              <span>{displayedText}</span>
-              <span className="animate-pulse">|</span>
+              <DecryptedText
+                text={titles[titleIndex]}
+                speed={40} // slower decryption
+                maxIterations={18}
+                animateOn="view"
+                revealDirection="center"
+                className="text-white"
+                encryptedClassName="opacity-60 text-accent"
+              />
             </h2>
           </div>
 
@@ -82,7 +100,7 @@ export function HeroSection() {
               size="lg"
               onClick={() => scrollToSection('projects')}
               data-testid="button-view-projects"
-              className="glass hover:glass neon-glow animate-pulse-glow"
+              className="glass hover:glass neon-glow animate-pulse-glow text-black dark:text-white"
             >
               {t.hero.cta1}
             </Button>
@@ -91,10 +109,20 @@ export function HeroSection() {
               variant="outline"
               onClick={() => scrollToSection('contact')}
               data-testid="button-contact"
-              className="glass hover:glass border-primary/50"
+              className="glass hover:glass neon-glow animate-pulse-glow border-primary/50 text-black dark:text-white"
             >
               {t.hero.cta2}
             </Button>
+            <Button
+              size="lg"
+              variant="secondary"
+              onClick={() => scrollToSection('achievements')}
+              data-testid="button-achievements"
+              className="glass hover:glass neon-glow animate-pulse-glow border-primary/50 font-semibold text-black dark:text-white"
+            >
+              Achievements
+            </Button>
+            <CVButton />
           </div>
         </div>
 

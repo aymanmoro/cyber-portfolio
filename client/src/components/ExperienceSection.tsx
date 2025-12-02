@@ -31,7 +31,8 @@ export function ExperienceSection() {
       title: t.experience.ctf,
       description: t.experience.ctfDesc,
       color: 'primary',
-      testId: 'ctf'
+      testId: 'ctf',
+      link: '#ctf-achievements', // Add anchor link to CTF achievements
     },
     {
       icon: Briefcase,
@@ -88,6 +89,14 @@ export function ExperienceSection() {
                     </div>
                     <CardTitle data-testid={`text-experience-${exp.testId}-title`}>
                       {exp.title}
+                      {exp.link && (
+                        <a
+                          href={exp.link}
+                          className="ml-3 text-xs text-blue-500 underline hover:text-blue-700 transition-colors duration-150"
+                        >
+                          View CTF Achievements
+                        </a>
+                      )}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
